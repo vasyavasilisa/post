@@ -1,0 +1,63 @@
+<!DOCTYPE>
+
+<html>
+<head>
+<meta charset=UTF-8>
+<title>Почтовый клиент</title>
+
+</head>
+
+<body>
+
+	<h1>Почтовый клиент</h1>
+
+
+	<form action="first.html" method="post" onsubmit="return validate()">
+		<table>
+			<tr id="first_tr">
+				<td>Адрес почты отправителя:</td>
+				<td><input type="text" name="sender" id="sender_id" size="45"/></td>
+				<td><select name="hostname_sender">
+						<option value="@mail.ru">@mail.ru</option>
+						<option value="@yandex.ru">@yandex.ru</option>
+				</select></td>
+			</tr>
+			
+			<tr id="second_tr">
+				<td>Пароль почты отправителя:</td>
+				<td><input type="password" name="password" id="password_id" size="45" /></td>
+			</tr>
+			<tr id="third_tr">
+				<td>Адрес почты получателя:</td>
+				<td><input type="text" name="receiver" id="receiver_id" size="45"/></td>
+				<td><select name="hostname_receiver">
+						<option value="@mail.ru">@mail.ru</option>
+						<option value="@yandex.ru">@yandex.ru</option>
+				</select></td>
+			</tr>
+			<tr id="fourth_tr">
+				<td>Тема сообщения:</td>
+				<td><input type="text" name="subject" id="subject_id" size="45" /></td>
+			</tr>
+			<tr id="fifth_tr">
+				<td>Тело сообщения:</td>
+				<td><textarea  name="body" id="body_id" rows="10" cols="45"/></textarea></td>
+			</tr>
+
+
+		
+
+			<tr>
+				<td colspan="2" align="right"><input type="submit"
+					value="Отправить-здесь всё правда"/></td>
+				
+			</tr>
+
+		
+
+		</table>
+
+	</form>
+	<script src="./js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="Windows-1251"?>
+<ReportOfWork>
+  <manager id="1">
+    <surnameOfManager>Litvinov</surnameOfManager>
+    <clientsList>12.06.2016
+       <Record id="1">
+            <surnameOfClient>Ivanov</surnameOfClient>
+            <nameOfTour>Барселона</nameOfTour>
+       </Record>
+       <Record id="2">
+            <surnameOfClient>Petrov</surnameOfClient>
+            <nameOfTour>Вильнюс</nameOfTour>
+        </Record>
+     </clientsList>
+
+    <clientsList>18.08.2016
+<Record id="1">
+<surnameOfClient>Григорьева</surnameOfClient>
+<nameOfTour>Париж</nameOfTour>
+</Record>
+<Record id="2">
+<surnameOfClient>Тимохович</surnameOfClient>
+<nameOfTour>Сочи</nameOfTour>
+</Record>
+</clientsList>
+</manager>
+
+<manager id="2">
+<surnameOfManager>Козловская</surnameOfManager>
+<clientsList>12.08.2016
+<Record id="1">
+<surnameOfClient>Еремейчик</surnameOfClient>
+<nameOfTour>Прага</nameOfTour>
+</Record>
+<Record id="2">
+<surnameOfClient>Парусов</surnameOfClient>
+<nameOfTour>Египет</nameOfTour>
+</Record>
+</clientsList>
+</manager>
+
+</ReportOfWork>
+
